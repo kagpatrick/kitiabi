@@ -10,14 +10,14 @@ email: hkitiabi@gmail.com
 description: > 
   Epidemiologist & Biostatistician | Public Health Researcher
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: epidemiology, biostatistics, HIV prevention, tuberculosis research, global health, public health analytics
 
 lang: en
 icon: favicon.png
 
-url: https://#your_site_here  # <-- Update with your actual GitHub Pages URL
+url: https://#your_site_here
 baseurl: ''
 last_updated: true
 impressum_path:
@@ -63,18 +63,18 @@ github_username: ""
 gitlab_username: ""
 x_username: ""
 mastodon_username: ""
-linkedin_username: ""       # Add your LinkedIn handle e.g., henry-kitiabi
+linkedin_username: ""
 telegram_username: ""
-scholar_userid: ""          # (Optional) Add Google Scholar ID
+scholar_userid: ""
 semanticscholar_id: ""
 whatsapp_number: ""
-orcid_id: ""                # Add ORCID if available
+orcid_id: ""
 medium_username: ""
 quora_username: ""
 publons_id: ""
 lattes_id: ""
 osf_id: ""
-research_gate_profile: ""   # Add if he has one
+research_gate_profile: ""
 scopus_id: ""
 blogger_url: ""
 work_url: ""
@@ -207,7 +207,6 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
@@ -240,37 +239,6 @@ jekyll-archives:
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code']
 display_categories: ['blockquotes']
-
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
-
-scholar:
-  last_name: [Kitiabi]
-  first_name: [Henry, Sohre]
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  bibtex_filters: [latex, smallcaps, superscript]
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-  query: "@*"
-  group_by: year
-  group_order: descending
-  sort_by: year, month
-  order: descending
-enable_publication_badges:
-  altmetric: true
-  dimensions: true
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
-max_author_limit: 10
-more_authors_animation_delay: 10
-enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # External link attributes
