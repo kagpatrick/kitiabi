@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research, data analytics, epidemiology, and global health projects led or co-led by Henry Sohre Kitiabi, PhD, MPH.
 nav: false
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [public-health, data-science, global-health]
 horizontal: false
 ---
 
@@ -38,7 +38,6 @@ horizontal: false
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
